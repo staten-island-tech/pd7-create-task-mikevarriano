@@ -2,7 +2,6 @@
 		function add() {
 			var numbersarray = [Number(document.getElementById("firstnumber").value), Number(document.getElementById("secondnumber").value)];
 			var result = numbersarray[0] + numbersarray[1];
-			document.getElementById("result").value = result;
 			if (result >= 0) {
 				document.getElementById("result").value = result;
 			} else {
