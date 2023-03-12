@@ -1,29 +1,47 @@
 
+		function add() {
+			var numbersarray = [Number(document.getElementById("firstnumber").value), Number(document.getElementById("secondnumber").value)];
+			var result = numbersarray[0] + numbersarray[1];
+			document.getElementById("result").value = result;
+			if (result >= 0) {
+				document.getElementById("result").value = result;
+			} else {
+				document.getElementById("result").value = "POSITIVE RESULTS ONLY!";
+			}
+		}
 
-function add() {
-	var num1 = Number(document.getElementById("input1").value);
-	var num2 = Number(document.getElementById("input2").value);
-	var result = num1 + num2;
-	document.getElementById("result").value = result;
-}
+		function subtract() {
+			var numbersarray = [Number(document.getElementById("firstnumber").value), Number(document.getElementById("secondnumber").value)];
+			var result = numbersarray[0] - numbersarray[1];
+			document.getElementById("result").value = result;
+			if (result >= 0) {
+				document.getElementById("result").value = result;
+			} else {
+				document.getElementById("result").value = "POSITIVE RESULTS ONLY!";
+			}
+		}
 
-function subtract() {
-	var num1 = Number(document.getElementById("input1").value);
-	var num2 = Number(document.getElementById("input2").value);
-	var result = num1 - num2;
-	document.getElementById("result").value = result;
-}
+		function multiply() {
+			var numbersarray = [Number(document.getElementById("firstnumber").value), Number(document.getElementById("secondnumber").value)];
+			var result = numbersarray[0] * numbersarray[1];
+			document.getElementById("result").value = result;
+			if (result >= 0) {
+				document.getElementById("result").value = result;
+			} else {
+				document.getElementById("result").value = "POSITIVE RESULTS ONLY!";
+			}
+		}
 
-function multiply() {
-	var num1 = Number(document.getElementById("input1").value);
-	var num2 = Number(document.getElementById("input2").value);
-	var result = num1 * num2;
-	document.getElementById("result").value = result;
-}
+		function divide() {
+			var numbersarray = [Number(document.getElementById("firstnumber").value), Number(document.getElementById("secondnumber").value)];
+			var result = numbersarray[0] / numbersarray[1];
+			document.getElementById("result").value = result;
+			if (result >= 0) {
+				document.getElementById("result").value = result;
+			} else {
+				document.getElementById("result").value = "POSITIVE RESULTS ONLY!";
+			}
+		}
+	
 
-function divide() {
-	var num1 = Number(document.getElementById("input1").value);
-	var num2 = Number(document.getElementById("input2").value);
-	var result = num1 / num2;
-	document.getElementById("result").value = result;
-}
+		
